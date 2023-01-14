@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
   background-image: url(./images/bg-intro-mobile.png);
-  background-size: 33.33333%;
-  background-color: #ff7a7a;
+  background-size: 33.3333333333%;
+  background-color: hsl(0deg, 100%, 74%);
 }
 
 .contenedor-1 {
@@ -14,15 +14,13 @@ html {
   margin: 0 auto;
   width: 400px;
   height: 400px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
-
 .contenedor-1 h1 {
   text-align: center;
   font-size: 40px;
   font-weight: 600;
 }
-
 .contenedor-1 p {
   text-align: center;
   font-size: 20px;
@@ -33,62 +31,54 @@ html {
   width: 400px;
   height: 400px;
 }
-
 .contenedor-2 .contenedor-2__contenedor1 {
-  background-color: #6055a5;
+  background-color: hsl(248deg, 32%, 49%);
   padding: 4px 0;
-  border: 10px #6055a5 solid;
+  border: 10px hsl(248deg, 32%, 49%) solid;
   border-radius: 10px;
   margin-bottom: 40px;
-  -webkit-box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
-
 .contenedor-2 .contenedor-2__contenedor1 p {
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 18px;
   font-weight: 400;
 }
-
 .contenedor-2 .contenedor-2__contenedor2 {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 40px 10px;
-  border: 10px white solid;
+  border: 10px rgb(255, 255, 255) solid;
   border-radius: 10px;
 }
-
 .contenedor-2 .contenedor-2__contenedor2 form {
   text-align: center;
 }
-
 .contenedor-2 .contenedor-2__contenedor2 form input {
-  border: 2px #b9b6d3 solid;
+  border: 2px hsl(246deg, 25%, 77%) solid;
   border-radius: 5px;
-  width: 350px;
+  padding: 1rem 1rem;
+  overflow: hidden;
+  width: 300px;
   height: auto;
   font-size: 20px;
-  padding: 10px 0;
   margin: 10px 0;
 }
-
 .contenedor-2 .contenedor-2__contenedor2 form .boton {
   padding: 15px 30px;
-  background-color: #38cc8c;
-  color: white;
+  background-color: hsl(154deg, 59%, 51%);
+  color: rgb(255, 255, 255);
   font-size: 18px;
-  border: 5px solid #38cc8c;
+  border: 5px solid hsl(154deg, 59%, 51%);
   border-radius: 10px;
   margin-top: 20px;
 }
-
 .contenedor-2 .contenedor-2__contenedor2 p {
   text-align: center;
-  color: #b9b6d3;
+  color: hsl(246deg, 25%, 77%);
 }
-
 .contenedor-2 .contenedor-2__contenedor2 p #span1 {
-  color: #ff7a7a;
+  color: hsl(0deg, 100%, 74%);
 }
 
 .attribution {
@@ -97,8 +87,6 @@ html {
   margin: 40em auto 2em auto;
   text-align: center;
 }
-
 .attribution a {
-  color: #3e52a3;
-}
-/*# sourceMappingURL=style.css.map */
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */

@@ -52,7 +52,7 @@ html {
       font-weight: 400;
     }
   }
-  .contenedor-2__contenedor2{
+  .contenedor-2__contenedor2 {
     background-color: $blanco;
     padding: 40px 10px;
     border: 10px $blanco solid;
@@ -62,6 +62,7 @@ html {
       input {
         border: 2px $grayish-blue solid;
         border-radius: 5px;
+        padding: 2rem 0;
         width: 350px;
         height: auto;
         font-size: 20px;
